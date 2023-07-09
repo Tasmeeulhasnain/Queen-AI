@@ -1,4 +1,4 @@
-/***
+/*
                                 ╭━━━┳╮ ╭┳━━━┳━━━┳━╮ ╭╮    ╭━━━┳━━╮
                                 ┃╭━╮┃┃ ┃┃╭━━┫╭━━┫┃╰╮┃┃    ┃╭━╮┣┫┣╯
                                 ┃┃ ┃┃┃ ┃┃╰━━┫╰━━┫╭╮╰╯┃    ┃┃ ┃┃┃┃
@@ -13,7 +13,7 @@
 ## Project Team => DarkSide Team
 ## Module Name => config.js
 ## Coded By DarkWinzo
-***/ 
+*/ 
 
 const fs = require('fs');
 const chalk = require('chalk');
@@ -26,7 +26,7 @@ global.openaikey = process.env.OPEN_AI_KEY || "ENTER_API-KEY_HERE"; //Put Your O
 
 global.ownername = process.env.OWNER_NAME || "DarkWinzo"; //Queen-AI Owner Name here
 
-global.ownernumber = process.env.OWNER_NUMBER || "94775200935"; //Owner whatsapp number here
+global.ownernumber = process.env.OWNER_NUMBER || "94XXXXXXX"; //Owner whatsapp number here
 
 global.language = process.env.LANGUAGE || "EN"; //Enter bot working language EN = English / SI = Sinhala /ML = Malayalam /HI =Hindi /UR = Urdu
 
